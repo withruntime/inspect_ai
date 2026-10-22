@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.284](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.283...0.3.284) (2026-10-22)
+
+
+### Bug Fixes
+
+* collect() drops the cause of a task's error ([#6000](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6000)) ([2521656](https://github.com/UKGovernmentBEIS/inspect_ai/commit/2521656e345f995e37b1bea09d3f212e4819bd18))
+* logged model inputs and outputs no longer change when an agent later edits a message in place ([#5883](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5883)) ([ae59272](https://github.com/UKGovernmentBEIS/inspect_ai/commit/ae59272ed3d66499e2d25b6e31b9d59f5b325217))
+
+
+### Performance Improvements
+
+* retrying an eval whose logs are on S3 no longer re-uploads the prior attempt's log before the retry starts ([#5899](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5899)) ([1031b57](https://github.com/UKGovernmentBEIS/inspect_ai/commit/1031b575f9dad158860faa0f9dba0025864b0e68))
+
 ## [0.3.283](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.282...0.3.283) (2026-10-21)
 
 
